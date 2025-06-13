@@ -1,0 +1,28 @@
+import matplotlib.pyplot as plt
+
+# Bar chart
+x = ['a', 'b', 'c']
+y = [10, 5, 8]
+plt.bar(x, y)
+plt.title("Bar Chart")
+plt.show()
+
+# Scatter plot
+x = [1, 2, 3, 4]
+y = [2, 4, 6, 8]
+plt.scatter(x, y)
+plt.title("Scatter Plot")
+plt.show()
+
+# Histogram
+data = [1, 2, 2, 3, 3, 4, 4, 4, 4]
+plt.hist(data, bins=4)
+plt.title("Histogram")
+plt.show()
+
+# Pie chart
+labels = ["apple", "banana", "grapes"]
+sizes = [30, 40, 10]
+plt.pie(sizes, labels=labels, autopct="%1.1f%%")
+plt.title("Pie Chart")
+plt.show()
